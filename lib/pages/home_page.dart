@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:time_guard/constants/colors/colors.dart';
@@ -79,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                   // fit: StackFit.loose,
                   children: [
                     // Первая карточка
-                    Container(
+                    SizedBox(
                       width: screenWidth,
                       height: screenHeight / 1.6,
                       child: Card(
@@ -187,7 +186,7 @@ class _HomePageState extends State<HomePage> {
                       padding: const EdgeInsets.symmetric(horizontal: 1.0),
                       child: Positioned(
                         top: 200, // Задаем положение для наложения
-                        child: Container(
+                        child: SizedBox(
                           width: screenWidth,
                           height: screenHeight / 3.5,
                           child: Card(
